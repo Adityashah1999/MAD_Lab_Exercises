@@ -1,4 +1,4 @@
-package com.aditya.HelloToastChallenge;
+package com.aditya.HelloToastChallengee;
 
 import org.junit.Test;
 
