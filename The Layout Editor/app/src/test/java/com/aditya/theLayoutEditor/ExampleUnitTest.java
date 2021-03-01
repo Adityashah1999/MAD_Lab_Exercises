@@ -1,4 +1,4 @@
-package com.aditya.theLayoutEditor;
+package com.aditya.thelayouteditor;
 
 import org.junit.Test;
 
