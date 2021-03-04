@@ -1,11 +1,9 @@
-package com.aditya.hellotoast;
+package com.aditya.HelloConstraint;
 
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
-import android.os.PersistableBundle;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -30,10 +28,15 @@ public class MainActivity extends AppCompatActivity {
     @SuppressLint("SetTextI18n")
     public void countUp(View view) {
         ++mCount;
-        if (mShowCount != null)
+        if (mShowCount != null) {
             mShowCount.setText(Integer.toString(mCount));
+        }
 
     }
+    public void resetCount (View view) {
+        mCount = 0;
+        mShowCount.setText(String.valueOf(mCount));
 
+    }
 
 }
